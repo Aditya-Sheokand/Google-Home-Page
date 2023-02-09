@@ -1,0 +1,139 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+/* navbar section  */
+.wrapper{
+    height: 100vh;
+    width:100vw;
+   background-color: rgb(252, 220, 178);
+}
+
+/* navbar  */
+.navBarUl{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    list-style-type:none;
+    text-decoration: none;
+    text-decoration: none;
+    border:2px solid black;
+    
+}
+
+/* navbar-content  */
+
+.navbarli{
+    text-decoration: none;
+    padding:10px;
+    color:rgb(37, 24, 5);
+}
+
+.navbarli:hover{
+    text-decoration: underline;
+}
+
+/* navbar images  */
+#dotsIamges{
+    height: 17px;
+    width:17px;
+    margin: 8px;
+}
+#userProfile{
+    height: 30px;
+    width:30px;
+    border-radius: 50px;
+    margin: 10px;
+    border:0.5px solid black;
+}
+
+/* google-logo-section  */
+
+.logoSection{
+    height: 40%;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border:2px solid black;
+}
+
+.googleContainer{
+    height:40%;
+    width:100%;
+}
+#google{
+   
+    text-align:center;
+    font-weight:600;
+    font-family:  'Arial Narrow', Arial, sans-serif;
+    font-size: 5.5rem;
+    color:rgb(245, 155, 46);
+    
+}
+
+/* chrome extention and web-app icons section  */
+
+.mainContent{
+    height:100%;
+    width:100%;
+    border:4px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchSection{
+    height:100%;
+    width:50%;
+    border:2px solid black;
+    display: flex;
+    flex-direction: column;
+    border:3px solid black;
+
+}
+
+/* search-bar  */
+
+.searchBar{
+    height:9%;
+    width:100%;
+    border:2px solid black;
+    display: flex;
+    border:3px solid black;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    
+
+}
+
+.searchimages{
+    height: 40px;
+    width:40px;
+    align-self: center;
+    border-radius: 30px;
+    
+}
+
+#searchMag{
+    margin-right: 30px;
+}
+
+/* hover effect on google microphone  */
+.searchimages:hover{
+    cursor: pointer;
+}
+#searchSection{
+    height: 100%;
+    width: 85%;
+    border-style: none;
+    font-size: larger;
+   
+}
+
+/* Different Icons or web-option content  */
+
+
