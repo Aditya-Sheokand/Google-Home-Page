@@ -155,9 +155,26 @@
 
 }
 
+
+.icons{
+    background-color: rgb(240, 170, 19);
+    height: 40%;
+    width: 50%;
+    border:2px solid black;
+    float: auto;
+    margin:auto;
+    margin-top:30%;
+    border-radius: 50px;
+    margin-bottom: 7px;
+}
+
 #youtube-icon{
-    height:60%;
-    width: 100%;
-    background-color: rgb(252, 220, 178);
+    height:44%;
+    width: 60%;
+    background-color: rgb(243, 162, 55);
+    border-radius: 50px;
+    margin: auto;
+    margin-top:30%;
+    
 }
 
